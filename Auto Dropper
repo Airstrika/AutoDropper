@@ -1,0 +1,13 @@
+-- MADE BY AIRSTRIKA
+
+local A_1 = "DropMoney"
+local A_2 = "10000"
+local Event = game:GetService("ReplicatedStorage").MainEvent
+Event:FireServer(A_1, A_2)
+
+game.StarterGui:SetCore('SendNotification', {
+        Title    = 'AIRSTRIKAS DROPPER',
+        Text     = ('NOW DROPPING CASH.'),
+        Duration = 60,
+    })
+    
